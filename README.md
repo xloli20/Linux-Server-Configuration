@@ -3,8 +3,8 @@
 Third project in Udacity Fullstack Nanodegree.
  baseline installation of a Linux server and prepare it to host your web applications, secure the server from a number of attack vectors, and configuring firewall, dealing with encrypted key as login secure method, install and configure a database server, and deploy one of existing web applications onto it.
  
-# IP & Hostname
-  - Domain name: http://ec2-18-184-59-194.eu-central-1.compute.amazonaws.com
+# Server Information
+  - Host: http://ec2-18-184-59-194.eu-central-1.compute.amazonaws.com
   - Public IP address: 18.184.59.194
   - Accessible SSH port: 2200
 
