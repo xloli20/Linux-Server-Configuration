@@ -3,12 +3,12 @@
 Third project in Udacity Fullstack Nanodegree.
  baseline installation of a Linux server and prepare it to host your web applications, secure the server from a number of attack vectors, and configuring firewall, dealing with encrypted key as login secure method, install and configure a database server, and deploy one of existing web applications onto it.
  
-# Server Information
+## Server Information
   - Host: http://ec2-18-184-59-194.eu-central-1.compute.amazonaws.com
   - Public IP address: 18.184.59.194
   - Accessible SSH port: 2200
 
-# How did I complete this project?
+## How did I complete this project?
 There are a few things you need to do when you create your server instance in [Amazon Lightsail](https://aws.amazon.com/lightsail/).
 1. Sign up or log in if you already have an account.
 
@@ -146,7 +146,7 @@ application.secret_key = 'supersecretkey'
 
 30. Restart Apache `sudo service apache2 restart`
 31. Visit site at `http://[your public ip]/`
-# References
+## References
 - https://github.com/stueken/FSND-P5_Linux-Server-Configuration
 - https://github.com/FahadAlsubaie/linux_server_configuration
 - https://askubuntu.com
