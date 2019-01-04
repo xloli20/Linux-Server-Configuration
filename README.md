@@ -1,16 +1,16 @@
 # Linux Server Configuration
 
 Third project in Udacity Fullstack Nanodegree.
- baseline installation of a Linux server and prepare it to host your web applications. You will secure your server from a number of attack vectors, install and configure a database server, and deploy one of your existing web applications onto it.
+ baseline installation of a Linux server and prepare it to host your web applications, secure the server from a number of attack vectors, and configuring firewall, dealing with encrypted key as login secure method, install and configure a database server, and deploy one of existing web applications onto it.
  
 # IP & Hostname
-  - Hostname: http://ec2-18-184-59-194.eu-central-1.compute.amazonaws.com
-  - IP address: 18.184.59.194
+  - Domain name: http://ec2-18-184-59-194.eu-central-1.compute.amazonaws.com
+  - Public IP address: 18.184.59.194
   - Accessible SSH port: 2200
 
 # How did I complete this project?
 There are a few things you need to do when you create your server instance in [Amazon Lightsail](https://aws.amazon.com/lightsail/).
-1. Log in!
+1. Sign up or log in if you already have an account.
 
 2. Create an instance.
 
@@ -52,8 +52,8 @@ There are a few things you need to do when you create your server instance in [A
 19. Change local timezone to UTC. Run `sudo dpkg-reconfigure tzdata` and then none of the above and will show UTC now choose it.
 
 20. Configure key-based authentication for grader user. 
-- open new terminal window and on your local machine run `ssh-keygen -f ~/.ssh/key_rsa` and configure a password for it. then, run `cat ~/.ssh/key_rsa.pub` and copy the output.
-- Run this command `sudo mkdir /home/grader/.ssh` then run this `sudo nano /home/grader/.ssh/authorized_keys` and paste your public key
+- on your local machine run `ssh-keygen -f ~/.ssh/key_rsa` and configure a password for it. then, run `cat ~/.ssh/key_rsa.pub` and copy the generated key.
+- Run this command `sudo mkdir /home/grader/.ssh` then run this `sudo nano /home/grader/.ssh/authorized_keys` and paste your public key and save.
 21. Disable ssh login for root user.
 
    - Run `sudo nano /etc/ssh/sshd_config`
@@ -151,3 +151,4 @@ application.secret_key = 'supersecretkey'
 - https://github.com/FahadAlsubaie/linux_server_configuration
 - https://askubuntu.com
 - https://ubuntuforums.org
+- https://httpd.apache.org/
