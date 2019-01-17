@@ -151,4 +151,4 @@ application.secret_key = 'supersecretkey'
 - https://github.com/FahadAlsubaie/linux_server_configuration
 - https://askubuntu.com
 - https://ubuntuforums.org
-- https://httpd.apache.org/
+- https://httpd.apache.org
