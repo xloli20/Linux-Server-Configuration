@@ -9,8 +9,7 @@ Third project in Udacity Fullstack Nanodegree.
   - Accessible SSH port: 2200
 
 ## How did I complete this project?
-There are a few things you need to do when you create your server instance in [Amazon Lightsail](https://aws.amazon.com/lightsail/).
-1. Sign up or log in if you already have an account.
+1. create your server instance in [Amazon Lightsail](https://aws.amazon.com/lightsail/). Sign up or log in if you already have an account.
 
 2. Create an instance.
 
