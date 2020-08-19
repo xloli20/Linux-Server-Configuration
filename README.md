@@ -4,7 +4,7 @@ Third project in Udacity Fullstack Nanodegree.
  baseline installation of a Linux server and prepare it to host your web applications, secure the server from a number of attack vectors, and configuring firewall, dealing with encrypted key as login secure method, install and configure a database server, and deploy one of existing web applications onto it.
  
 ## Server Information
-  - Host: http://ec2-18-184-59-194.eu-central-1.compute.amazonaws.com
+  - Host: http://ec2-18-184-59-194.eu-central-1.compute.amazonaws.com (Note:the server has been stopped)
   - Public IP address: 18.184.59.194
   - Accessible SSH port: 2200
 
@@ -147,7 +147,6 @@ application.secret_key = 'supersecretkey'
 31. Visit site at `http://[your public ip]/`
 ## References
 - https://github.com/stueken/FSND-P5_Linux-Server-Configuration
-- https://github.com/FahadAlsubaie/linux_server_configuration
 - https://askubuntu.com
 - https://ubuntuforums.org
 - https://httpd.apache.org
